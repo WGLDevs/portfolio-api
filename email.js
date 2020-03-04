@@ -8,7 +8,7 @@ module.exports = function(name, email, message) {
     secure: false, // true for 465, false for other ports
     auth: {
       user: "wgldevs@gmail.com" , 
-      //pass: ""
+      pass: "" //colocar senha
     },
     tls: { rejectUnauthorized: false }
   });
